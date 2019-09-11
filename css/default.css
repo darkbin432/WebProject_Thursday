@@ -42,11 +42,11 @@ a:hover{
 
 .searchButton{
     position: absolute;
-    margin-left: -55px;
-    margin-top: 5px;
+    margin-left: -45px;
+    margin-top: 13px;
     width: 40px;
-    height:50px;
+    height:35px;
+    cursor: pointer;
     border: 0;
-    background: url(../images/searchButton.png);
-    background-size: 40px 50px;
+    background: url(../images/searchButton.png) -653px -720px;
 }
