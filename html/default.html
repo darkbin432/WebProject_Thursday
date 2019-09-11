@@ -49,16 +49,23 @@
     </div>
     <div id="center">
         <div class="search">
-            <input type="text" class="searchInput" id="searchText">
-            <button class="searchButton" onclick="toSearchPage()"></button>
+            <input type="text" class="searchInput" id="searchText" onkeydown="keyup_submit(event)">
+            <button class="searchButton" onclick="button_click()"></button>
         </div>
 
     </div>
     <div id="bottom"></div>
     <script>
-        function toSearchPage() {
+        function keyup_submit(e) {
+            var evt = window.event || e;
             var text = document.getElementById("searchText");
-
+            if (evt.keyCode == 13){
+                window.open("http://baidu.com/s?ie=utf-8&wd=" + text.value);
+            }
+        }
+        function button_click() {
+            var text = document.getElementById("searchText");
+            window.open("http://baidu.com/s?ie=utf-8&wd=" + text.value);
         }
     </script>
 </body>
