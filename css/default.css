@@ -1,0 +1,51 @@
+a:link{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+a:visited{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+a:hover{
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.mask{
+    width:100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .6) !important;
+}
+
+.search{
+    position: absolute;
+    top: 250px;
+    left: 30%;
+    background-color: transparent!important;
+}
+
+.searchInput{
+    float: left;
+    width: 658px !important;
+    height: 60px !important;
+    border-radius: 7px;
+    line-height: 32px;
+    background-color: rgba(0, 0, 0, .7)!important;
+    border: 0;
+    font-size: 20px !important;
+    color: white;
+    padding-left: 20px;
+}
+
+.searchButton{
+    position: absolute;
+    margin-left: 20px;
+    width: 48px;
+    height:60px;
+    border: 0;
+    background: url(../images/searchButton.png);
+    background-size: 48px 60px;
+}
