@@ -47,7 +47,7 @@ a:hover{
     padding-left: 20px;
 }
 
-.searchButton{
+#searchButton{
     position: absolute;
     margin-left: -45px;
     margin-top: 13px;
