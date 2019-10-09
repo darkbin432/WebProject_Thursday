@@ -1,3 +1,10 @@
+body{
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;"
+}
+
 a:link{
     color: aliceblue;
     font-weight: bold;
@@ -49,4 +56,10 @@ a:hover{
     cursor: pointer;
     border: 0;
     background: url(../images/searchButton.png) -653px -720px;
+}
+
+li{
+    float: left;
+    position: relative;
+    background-color: hsla(0,0%,100%,0);
 }

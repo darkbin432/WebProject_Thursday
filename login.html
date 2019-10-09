@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>DMS Login</title>
+<link rel="stylesheet" href="css/login.css" type="text/css">
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body onkeydown="keyTrigger()">
+<div class="container">
+	<div class="main">
+		<h1 class="login">Login</h1>
+		<form class="section" action="" method="post">
+			<input type="text" class="user" id="user" placeholder="Username:admin"  onblur="check_username()">
+			<h5 id="userResult"></h5>
+			<input type="password" class="password" id="password" placeholder="Password:123456" onblur="check_password()">
+			<h5 id="pwdResult"></h5>
+			<h4 id="logResult"></h4>
+			<input type="button" class="button" id="button" onclick="log_check()" value="Sign in">
+		</form>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: url(../images/room-bg.jpg) rgba(0,0,0,0.5) no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+}
+
+a{
+    font-size:23px;
+    color: aliceblue;
+}
+
+.container{
+    text-align: center;
+}
+
+.cards{
+    text-align: left;
+    background: rgba(255,255,255,0.2);
+    display: inline-block;
+    width: 300px;
+    height: 475px;
+    margin: 10px;
+    border:solid #cccccc 1px;
+    border-radius: 15px;
+}
+.cards h2{
+    padding-left: 30px;
+    font-family: "PingFang HK",sans-serif;
+    color: beige;
+}
+.cards h3{
+    padding-left: 30px;
+    font-family: "PingFang HK",sans-serif;
+    font-weight:400;
+    color: azure;
+}
+.cards img{
+    padding: 25px;
+}
